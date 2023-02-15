@@ -27,7 +27,6 @@ for i in range(number_of_guests):
     guests[name] = guests_info
 
 # e. Once all the guests have been added to the dictionary, print out the complete guest list, including each guest's name and favorite food.
-
 print("Here is the guests list :- ")
 for name, food in guests.items():
-    print("guest " + name[0] + " favorate food is " + food[1])
+    print("guest " + name + " favorate food is " + food[1])
